@@ -17,8 +17,33 @@ namespace CarLotSimulator
             firstCar.HonkNoise = "honk";
             firstCar.IsDriveable = false;
 
-            firstCar.MakeEngineNoise("vroom");
+            firstCar.MakeEngineNoise("budda budda budda");
             firstCar.MakeHonkNoise("honk");
+            Console.WriteLine(firstCar);
+
+            secondCar.Year = 1985;
+            secondCar.Make = "Ford";
+            secondCar.Model = "Escort";
+            secondCar.EngineNoise = " ";
+            secondCar.HonkNoise = "BEEP";
+            secondCar.IsDriveable = false;
+
+            secondCar.MakeEngineNoise("vroom");
+            secondCar.MakeHonkNoise("BEEP");
+            Console.WriteLine();
+
+            thirdCar.Year = 2007;
+            thirdCar.Make = "Volkswagen";
+            thirdCar.Model = "Passat";
+            thirdCar.EngineNoise = "vrrarararar";
+            thirdCar.HonkNoise = "BRRMP";
+            thirdCar.IsDriveable = false;
+
+            thirdCar.MakeEngineNoise("vrrarararar");
+            thirdCar.MakeHonkNoise("BRRMP");
+            Console.WriteLine();
+            Console.WriteLine("We're gonna need some better cars...");
+
             //TODO
 
             //DONE Create a separate class file called Car
@@ -27,9 +52,9 @@ namespace CarLotSimulator
             //DONE The methods should take one string parameter: the respective noise property
 
 
-            //Now that the Car class is created we can instantiate 3 new cars
-            //Set the properties for each of the cars
-            //Call each of the methods for each car
+            //DONE Now that the Car class is created we can instantiate 3 new cars
+            //DONE Set the properties for each of the cars
+            //DONE Call each of the methods for each car
 
             //*************BONUS*************//
 
